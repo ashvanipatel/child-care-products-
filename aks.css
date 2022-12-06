@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-color: darkcyan;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px
+    }
+ul li{
+    display: inline-block;
+    
+}
+ul li a.other{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a.other:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+     background-color: white;
+    color: black;
+    
+}
+.logo img{
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
+    width: 150px;
+    height: auto;
+     
+}
+
+.main{
+    max-width: 1300px;
+    margin:auto;
+}
+.main2{
+   /* max-width: 1200px; */
+    margin: auto;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    background-color: khaki;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+}
+.cr{
+ 
+    display:inline-block;
+    background: linear-gradient(30deg,salmon,palegreen,lightsalmon,pink);
+    background-color:bisque;
+    background-position: center;
+    }
+.rc{
+    border: 3px;
+    border-style:groove;
+    border-radius: 9px;
+    border-bottom-color: deeppink;
+ border-top-color: cyan;
+      margin-left: auto;
+    margin-right: auto;
+        padding-left: 200px;
+    padding-right: 200px;
+}
+.pop{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "Comic Sans MS",sans-serif;
+}
+hr.new1{
+    border-top: 2px dashed #DC143C;
+}
+.new2{
+    font-size: 30px;
+    text-align: center;
+    color: #DA70D6;
+    text-shadow:1px 1px #2E8B57;
+}
+.new3{
+    font-size: 16px;
+    text-align: center;
+    color: #2F4F4F;
+}
+.pro{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF0F5;
+    position:relative;
+}
+.cap{
+     padding-left: 200px;
+    padding-right: 200px;
+    font-family: "Parkavenue",cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    }
+.mig
+{border: 3px;
+    border-style:groove;
+    border-radius: 13px;
+    border-bottom-color:mediumaquamarine;
+ border-top-color:mediumpurple;
+    
+}
+.some{
+      margin: auto;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    background-position: center;
+    height: 70px;
+    background-color: #4682B4;
+    display: inline-block;
+    background-size: cover;
+    }
+.pubg{
+    font-family: "Ink Free",cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color:#FFF8DC;
+    color: #FF4500;
+    font-weight:bold;
+    text-shadow:1px 1px #BC8F8F;
+}
+footer{
+    display: block;
+    background: linear-gradient(90deg,#141E30,#243B55);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-top:  solid;
+    border-top-style: double;
+    border-top-color: darkorange;
+    border-top-width: thick;
+}
+.son{
+    display: inline-block;
+  
+}
+
+.done{
+    display: list-item;
+    padding: 8px;
+    font-family: monospace;
+    font-size: 18px;
+    color: cornsilk;
+}
+.end{
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 120px;
+    padding-top: 30px;
+}
+a.oth{
+    font-family: monospace;
+}
+a:visited{
+    color: bisque;
+    font-family: monospace;
+    text-decoration:none;
+    text-decoration-line: none;
+}
+a:link{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+ }
+ .container h2{
+    color: #ff8800;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+ }
+ .container h2::before, .container h2::after{
+    content: "-----";
+    letter-spacing: -5px;
+    font-weight: lighter;
+    margin: 0 20px 0 10px;
+ }
+ .container .row{
+    display: flex;
+    justify-content: space-between;
+ }
+ .container .column{
+    width: 32%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+ }
+ .container .column img{
+    width: 100%;
+    height: auto;
+ }
+ .container .column a:last-child{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    top: 99%;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ff8800c0;
+    text-align: center;
+    padding-top: 14vw;
+    font-size: 3vw;
+    color: #ffffff;
+    text-decoration: none;
+ }
+ .container .column:hover a:last-child{
+    height: 100%;
+    top: 0;
+ }
